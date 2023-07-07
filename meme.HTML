@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meme Page</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="memes.css" />
+
+    
+  </head>
+  <form id="memeForm" action="">
+    <body id="body">
+      <h1 id="header">WELCOME TO THE MEME GENERATOR!</h1>
+      <h2 id="subheader">Add Top-Text / Bottom-Text to your MEME!</h2>
+      <div id="inputs">
+        <div id="topText">
+          Top Text:
+          <input
+            id="topTextInput"
+            type="text"
+            placeholder="Add Top Text "
+          />
+        </div>
+        <div id="image">
+          Image URL:<input
+            id="imageInput"
+            type="text"
+            placeholder="Insert ImageUrl"
+          />
+        </div>
+        <div id="bottomText">
+          Bottom Text:
+          <input
+            id="bottomTextInput"
+            type="text"
+            placeholder="(Optional) Add Bottom text"
+          />
+        </div>
+        
+<button class="button-3" id="memeBtn" role="button">Add Meme !</button>
+
+      </div>
+      
+      <div id="memeContainer">
+      </div>
+    </body>
+  </form>
+  <script src="meme.js"></script>
+</html>
